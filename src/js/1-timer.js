@@ -10,7 +10,7 @@ const hoursSpan = document.querySelector('[data-hours]');
 const minutesSpan = document.querySelector('[data-minutes]');
 const secondsSpan = document.querySelector('[data-seconds]');
 
-let userSelecteDate = null;
+let userSelectedDate = null;
 let timerInterval = null;
 const options = {
   enableTime: true,
