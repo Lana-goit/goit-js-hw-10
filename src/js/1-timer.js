@@ -88,7 +88,7 @@ function startTimer() {
   disableButton();
   document.querySelector('#datetime-picker').disabled = true;
 
-  const countdownInterval = setInterval(() => {
+  let countdownInterval = setInterval(() => {
     const now = new Date().getTime();
     const distance = userSelectedDate.getTime() - now;
 
